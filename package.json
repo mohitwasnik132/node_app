@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "Nodejs on DOcker trial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js",
+    "build": "npm build"
+  },
+  "author": "mohit <mohit@example.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pino": "^6.3.1"
+  }
+}
